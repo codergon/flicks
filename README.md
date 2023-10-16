@@ -72,6 +72,19 @@ Our deposit and withdrawal system utilizes USDC on the solana network for lightn
 
 Please note that due to time constraints, some features are not yet implemented. Some of this include wishlist and gifting of creators.
 
+## 📜 API Documentation
+
+<sup>[(Back to top)](#------------------------)</sup>
+
+
+- `backend` API documentation can be found at https://flicks.up.railway.app
+- `backend-utils` is hosted at https://flicks.hop.sh with the following endpoints 👇🏽
+  - `/domain/<address>`: Returns the SNS domain information for the provided address if it exists.
+  - `/images/<chain>.svg`: Returns the image for the blockchain passed. Valid values are ALGO, SOL, OP, ARB, TRX, BASE, ETH, MATIC, etc.
+  - `/collectionData/<collection_address>`: Returns the collection metadata for the NFT collection.
+  - `/owner/<user_address>?collectionName=<collection_name>`: Specifies if the provided user address has an NFT in the collection passed as a query parameter.
+
+
 ## 👍 Contributing
 
 <sup>[(Back to top)](#------------------------)</sup>
@@ -95,6 +108,6 @@ Meet the creative minds who brought this project to life:
 | ----------------- | ------------------------------------------ | --------------------------------------------- |
 | Olayinka Ganiyu   | Backend Engineer                           | [GitHub](https://github.com/Jaybee020)        |
 | Kester Atakere    | Creative Lead, Frontend Engineer, Designer | [GitHub](https://github.com/codergon)         |
-| Kishi             | Designer                                   | [Behance](https://github.com/codergon)        |
+| Iteoluwakiishi Akintan | Designer                                   | [Behance](https://www.behance.net/AkintanIteoluwa)        |
 | Tobiloba Emmanuel | Backend Engineer                           | [GitHub](https://github.com/Tee-py)           |
-| Isaac Adewumi     | Chief Architect,Backend Engineer           | [GitHub](https://github.com/prettyirrelevant) |
+| Isaac Adewumi     | Backend Engineer           | [GitHub](https://github.com/prettyirrelevant) |

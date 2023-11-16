@@ -21,15 +21,14 @@
 
 ## Overview
 
-Flicks is a live streaming app built on Solana that aims to provide a platform for content creators to host live streams, upload various types of content, and engage with their audience. The app enables creators to monetize their content through subscriptions, gifts, and item purchases. It also offers a seamless payment system using Solana to fund user accounts.
+Flicks is a live streaming app built on Algorand that aims to provide a platform for content creators to host live streams, upload various types of content, and engage with their audience. The app enables creators to monetize their content through subscriptions, gifts, and item purchases. It also offers a seamless payment system using Algorand to fund user accounts.
 
 ## Repos
 
-Flicks is made up of 3 repositories. Below are the repos
+Flicks is made up of 2 repositories. Below are the repos
 
-- **[Flicks:](https://github.com/codergon/flicks)** This is the user interface of flicks written majorly in React Native.
-- **[Flicks-API:](https://github.com/prettyirrelevant/flicks-api)** This is the major backend component of Flicks. It is responsible for major activities like user creation, deposit & withdrawal , subscriptions.
-- **[Flicks-Sol:](https://github.com/Jaybee020/flicks)** This is a backend component of Flicks. It is used to query on-chain data for solana addressess and collections.
+- [Flicks:](https://github.com/codergon/flicks) This is the user interface of flicks written majorly in React Native.
+- [Flicks-API:](https://github.com/prettyirrelevant/flicks-api) This is the major backend component of Flicks. It is responsible for major activities like user creation, deposit & withdrawal , subscriptions.
 
 ## 🎥 Demo
 
@@ -51,22 +50,22 @@ Creators can upload files, audio, and video content to share with their audience
 
 Creators can choose between two subscription models:
 
-- **Time-based subscription:** Supporters subscribe to all of a creator's content for a specific period, such as monthly.
-- **NFT-based subscription:** Supporters subscribe to all of a creator's content by holding an NFT in a collection.
+- Time-based subscription: Supporters subscribe to all of a creator's content for a specific period, such as monthly.
+- ASA-Gating subscription: Supporters subscribe to all of a creator's content by holding a minimum amount of a certain ASA in their logged in account.
 
 ### Viewer Interactions:
 
 Creators can choose between two subscription models:
 
-- **Live Chat:** Viewers can comment and engage in live chat during the stream.
-- **Gifting:** Viewers can send virtual gifts of various categories with different prices. The sender's username and an animation related to the gift are displayed on the stream.
+- Live Chat: Viewers can comment and engage in live chat during the stream.
+- Gifting: Viewers can send virtual gifts of various categories with different prices. The sender's username and an animation related to the gift are displayed on the stream.
 
 ### Monetization
 
-- **Subscriptions:** Creators can earn revenue through pay-as-you-go and time-based subscriptions..
-- **Gifts:** Creators receive revenue from viewers who send virtual gifts during the streams.
+- Subscriptions: Creators can earn revenue through pay-as-you-go and time-based subscriptions..
+- Gifts: Creators receive revenue from viewers who send virtual gifts during the streams.
 
-Our deposit and withdrawal system utilizes USDC on the solana network for lightning fast settlement.
+Our deposit and withdrawal system utilizes USDC on the algorand network for lightning fast settlement.
 
 ### Important Information
 
@@ -77,12 +76,7 @@ Please note that due to time constraints, some features are not yet implemented.
 <sup>[(Back to top)](#------------------------)</sup>
 
 
-- `backend` API documentation can be found at https://flicks.up.railway.app
-- `backend-utils` is hosted at https://flicks.hop.sh with the following endpoints 👇🏽
-  - `/domain/<address>`: Returns the SNS domain information for the provided address if it exists.
-  - `/images/<chain>.svg`: Returns the image for the blockchain passed. Valid values are ALGO, SOL, OP, ARB, TRX, BASE, ETH, MATIC, etc.
-  - `/collectionData/<collection_address>`: Returns the collection metadata for the NFT collection.
-  - `/owner/<user_address>?collectionName=<collection_name>`: Specifies if the provided user address has an NFT in the collection passed as a query parameter.
+- backend API documentation can be found at https://flicks.up.railway.app/docs
 
 
 ## 👍 Contributing
@@ -93,10 +87,10 @@ We believe in the power of collaboration and welcome contributions from all memb
 your input is valuable.
 Here are a few ways you can get involved:
 
-- **Spread the Word**: Help us reach more enthusiasts by sharing the project with your network. The more creators and collectors we bring together, the stronger our community becomes.
-- **Feature Requests**: If you have ideas for new features or improvements, share them with us! We're excited to hear how we can enhance the product to better serve the community.
-- **Code Contributions**: Developers can contribute by submitting pull requests. Whether it's fixing bugs, optimizing code, or adding new functionalities, your code contributions are invaluable.
-- **Bug Reports and Feedback**: If you encounter any issues or have suggestions for improvement, please open an issue on GitHub.
+- Spread the Word: Help us reach more enthusiasts by sharing the project with your network. The more creators and collectors we bring together, the stronger our community becomes.
+- Feature Requests: If you have ideas for new features or improvements, share them with us! We're excited to hear how we can enhance the product to better serve the community.
+- Code Contributions: Developers can contribute by submitting pull requests. Whether it's fixing bugs, optimizing code, or adding new functionalities, your code contributions are invaluable.
+- Bug Reports and Feedback: If you encounter any issues or have suggestions for improvement, please open an issue on GitHub.
 
 ## 👥 Team
 
@@ -104,7 +98,7 @@ Here are a few ways you can get involved:
 
 Meet the creative minds who brought this project to life:
 
-| **Name**          | **Role**                                   | **GitHub/Behance**                            |
+| Name          | Role                                   | GitHub/Behance                            |
 | ----------------- | ------------------------------------------ | --------------------------------------------- |
 | Olayinka Ganiyu   | Backend Engineer                           | [GitHub](https://github.com/Jaybee020)        |
 | Kester Atakere    | Creative Lead, Frontend Engineer, Designer | [GitHub](https://github.com/codergon)         |

@@ -32,7 +32,7 @@ Flicks is made up of 2 repositories. Below are the repos
 
 ## 🎥 Demo
 
-[//]: # "[![Watch the video](https://img.youtube.com/vi/zV8lfBa39q8/maxresdefault.jpg)](https://youtu.be/zV8lfBa39q8)"
+[//]: # "[![Watch the video](https://img.youtube.com/vi/2LuOum9F0xI/maxresdefault.jpg)](https://www.youtube.com/watch?v=2LuOum9F0xI)"
 
 ## 🎯 Features
 

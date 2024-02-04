@@ -32,7 +32,7 @@ Flicks is made up of 3 repositories. Below are the repos
 - **[Flicks-Sol:](https://github.com/Jaybee020/flicks)** This is a backend component of Flicks. It is used to query on-chain data for solana addressess and collections.
 
 ## 🎥 Demo
-[![Watch the video](https://i3.ytimg.com/vi/2LuOum9F0xI?si=NqbSVacUI50cLI05/maxresdefault.jpg)](https://youtu.be/2LuOum9F0xI?si=NqbSVacUI50cLI05)"
+[![Watch the video](http://i3.ytimg.com/vi/8LxA-BlxA3M/hqdefault.jpg)](https://youtu.be/8LxA-BlxA3M?feature=shared)
 
 ## 🎯 Features
 

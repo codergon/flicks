@@ -1,5 +1,5 @@
 <h1 align="center">
-  FLICKS
+  FLICKS (Encode x Solana Hackathon)
 </h1>
 
 <p align="center">
@@ -111,3 +111,4 @@ Meet the creative minds who brought this project to life:
 | Iteoluwakiishi Akintan | Designer                                   | [Behance](https://www.behance.net/AkintanIteoluwa)        |
 | Tobiloba Emmanuel | Backend Engineer                           | [GitHub](https://github.com/Tee-py)           |
 | Isaac Adewumi     | Backend Engineer           | [GitHub](https://github.com/prettyirrelevant) |
+| John Shodipo      | Backend Engineer           | [GitHub](https://github.com/johnkayode) |

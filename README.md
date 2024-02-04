@@ -1,5 +1,5 @@
 <h1 align="center">
-  FLICKS
+  FLICKS (Encode x Solana Hackathon)
 </h1>
 
 <p align="center">
@@ -32,8 +32,7 @@ Flicks is made up of 3 repositories. Below are the repos
 - **[Flicks-Sol:](https://github.com/Jaybee020/flicks)** This is a backend component of Flicks. It is used to query on-chain data for solana addressess and collections.
 
 ## 🎥 Demo
-
-[//]: # "[![Watch the video](https://img.youtube.com/vi/zV8lfBa39q8/maxresdefault.jpg)](https://youtu.be/zV8lfBa39q8)"
+[![Watch the video](https://i3.ytimg.com/vi/2LuOum9F0xI?si=NqbSVacUI50cLI05/maxresdefault.jpg)](https://youtu.be/2LuOum9F0xI?si=NqbSVacUI50cLI05)"
 
 ## 🎯 Features
 
@@ -111,3 +110,4 @@ Meet the creative minds who brought this project to life:
 | Iteoluwakiishi Akintan | Designer                                   | [Behance](https://www.behance.net/AkintanIteoluwa)        |
 | Tobiloba Emmanuel | Backend Engineer                           | [GitHub](https://github.com/Tee-py)           |
 | Isaac Adewumi     | Backend Engineer           | [GitHub](https://github.com/prettyirrelevant) |
+| John Shodipo      | Backend Engineer           | [GitHub](https://github.com/johnkayode) |
